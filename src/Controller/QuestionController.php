@@ -66,6 +66,8 @@ class QuestionController extends AbstractController
         ]);
     }
 
+
+
     /**
      * @Route("/questions/{slug}/vote" , name="app_question_vote", methods="POST")
      */
